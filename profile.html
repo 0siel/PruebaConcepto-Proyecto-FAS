@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil de usuario</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="navigation-bar">
+      <div id="navigation-bar__logo">
+        <img src="imgs/app-logo.png" alt="Foton" />
+      </div>
+      <div id="navigation-bar__home">
+        <a href="index.html"><img src="imgs/home.png" alt="inicio" />Inicio</a>
+      </div>
+      <div id="navigation-bar__fdd">
+        <a href="lafotodeldia.html"
+          ><img src="imgs/photo.png" alt="" /> La Foto del día</a
+        >
+      </div>
+      <div id="navigation-bar__search">
+        <a href="search.html"><img src="imgs/search.png" alt="" /> Buscar</a>
+      </div>
+      <div id="navigation-bar__profile">
+        <a href="profile.html"><img src="imgs/user.png" alt="" /> Mi perfil</a>
+      </div>
+    </div>
+    <div id="main-content">
+      <div id="profile-info">
+        <div id="profile-info__user">
+          <img src="imgs/img1.jpeg" alt="imagen-prueba" />
+          <p>Nombre de usuario</p>
+        </div>
+        <div id="profile-info__stats">
+          <div id="profile-info__stats__posts">
+            <p>0</p>
+            <p>Publicaciones</p>
+          </div>
+        </div>
+      </div>
+      <div id="profile-posts">
+        <div class="profile-post">
+          <div class="post-pic">
+            <img src="imgs/img1.jpeg" alt="imagen-prueba" />
+          </div>
+          <div class="post-description">
+            <p>Descripción de la foto</p>
+          </div>
+          <div class="post-likes">
+            <img src="imgs/heart.png" alt="" />
+            <p>0</p>
+          </div>
+        </div>
+        <div class="profile-post">
+          <div class="post-pic">
+            <img src="imgs/img2.jpeg" alt="imagen-prueba" />
+          </div>
+          <div class="post-description">
+            <p>Descripción de la foto</p>
+          </div>
+          <div class="post-likes">
+            <img src="imgs/heart.png" alt="" />
+            <p>0</p>
+          </div>
+        </div>
+        <div class="profile-post">
+          <div class="post-pic">
+            <img src="imgs/img3.jpeg" alt="imagen-prueba" />
+          </div>
+          <div class="post-description">
+            <p>Descripción de la foto</p>
+          </div>
+          <div class="post-likes">
+            <img src="imgs/heart.png" alt="" />
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+    #main-content {
+      display: block;
+      margin-left: 20%;
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+
+    #profile-posts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .profile-post .post-pic img {
+      width: 100%;
+    }
+    #profile-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      width: 100%;
+    }
+    #profile-info__user {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      width: 100%;
+    }
+    #profile-info__user img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+  </style>
+</html>

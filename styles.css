@@ -1,0 +1,159 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navigation-bar {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  position: fixed;
+  width: 20%;
+  height: 100%;
+}
+
+#navigation-bar div {
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+#navigation-bar div img {
+  width: 60px;
+}
+
+#main-content {
+  margin-left: 20%;
+  padding: 10px;
+  width: 80%;
+  border: 2px solid #d6d6d6;
+}
+
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-content {
+  flex: 1; /* Esto permite que main-content ocupe todo el espacio disponible */
+  display: flex;
+  justify-content: flex-end; /* Para mover add-button al extremo derecho */
+  align-items: center;
+}
+
+#add-button {
+  position: fixed;
+  bottom: 20px;
+  left: 25%;
+  margin-right: 10px; /* Ajusta el margen derecho según tus necesidades */
+}
+#add-button img {
+  width: 100px;
+}
+#feed-posts {
+  width: 40%;
+  margin: 0 auto;
+}
+.feed-post {
+  margin-bottom: 20px;
+  border: 1px solid #d6d6d6;
+  padding: 10px;
+  width: 100%;
+}
+
+.post-user-info {
+  display: flex;
+  align-items: center;
+}
+.post-user-info img {
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.post-pic img {
+  width: 100%;
+}
+
+.post-likes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.post-likes img {
+  width: 20px;
+  margin-right: 10px;
+}
+#fdd-section {
+  width: 25%;
+  background-color: #f4f4f4; /* Cambia el color de fondo según tus necesidades */
+}
+
+#fdd-section h3 {
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+#fdd-section a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.fdd-item {
+  /*show item number*/
+
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.fdd-item img {
+  width: 60px;
+  margin-right: 10px;
+}
+/* styles fotodeldia.html */
+#fdd-posts {
+  width: 70%;
+  margin: 0 auto;
+}
+.fdd-post {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #d6d6d6;
+  padding: 10px;
+  width: 100%;
+}
+
+.fdd-post-info {
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.fdd-post-user-info a img {
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.fdd-post-pic {
+  width: 100%;
+}
+.fdd-post-pic img {
+  width: 100%;
+}
